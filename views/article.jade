@@ -1,0 +1,8 @@
+extends layout
+
+block content
+      .page__content
+        .container
+          h2= data.name
+          .text!= data.body 
+          img(src='#{data.img}')     
